@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "google_maps_reviews"
+  },
+  "place_info": {
+    "title": "Sample hotel",
+    "rating": 4.5,
+    "reviews": 2140,
+    "type": "Hotel"
+  },
+  "topics": [
+    {
+      "keyword": "location",
+      "mentions": 412,
+      "id": "/m/location"
+    },
+    {
+      "keyword": "breakfast",
+      "mentions": 268,
+      "id": "/m/breakfast"
+    },
+    {
+      "keyword": "noise",
+      "mentions": 97,
+      "id": "/m/noise"
+    },
+    {
+      "keyword": "staff",
+      "mentions": 355,
+      "id": "/m/staff"
+    },
+    {
+      "keyword": "wifi",
+      "mentions": 61,
+      "id": "/m/wifi"
+    },
+    {
+      "keyword": "rooftop",
+      "mentions": 88,
+      "id": "/m/rooftop"
+    }
+  ],
+  "reviews": [],
+  "serpapi_pagination": {
+    "next_page_token": "sample_next"
+  }
+}

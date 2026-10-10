@@ -1,0 +1,816 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "google_hotels"
+  },
+  "properties": [
+    {
+      "type": "vacation rental",
+      "name": "Alfama loft with river view",
+      "description": "Entire apartment in Alfama. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_alfama_loft_with_river_view",
+      "property_token": "sample_alfama_loft_with_river_view",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_alfama_loft_with_river_view",
+      "gps_coordinates": {
+        "latitude": 38.7114,
+        "longitude": -9.1291
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$128",
+        "extracted_lowest": 128,
+        "before_taxes_fees": "$120",
+        "extracted_before_taxes_fees": 120
+      },
+      "total_rate": {
+        "lowest": "$384",
+        "extracted_lowest": 384
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 132
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 136
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.8,
+      "reviews": 96,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 16,
+          "positive": 13,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_0_sample_alfama_loft_with_river_view"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 8,
+          "positive": 7,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_1_sample_alfama_loft_with_river_view"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_2_sample_alfama_loft_with_river_view"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 13,
+          "positive": 12,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_3_sample_alfama_loft_with_river_view"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 16,
+          "positive": 13,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_4_sample_alfama_loft_with_river_view"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "42 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "16 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Alfama, Lisbon, Portugal",
+      "tripadvisor_id": null
+    },
+    {
+      "type": "vacation rental",
+      "name": "Príncipe Real 2-bedroom apartment with balcony",
+      "description": "Entire apartment in Príncipe Real. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_pr_ncipe_real_2_bedroom_apartment_with_balcony",
+      "property_token": "sample_pr_ncipe_real_2_bedroom_apartment_with_balcony",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_pr_ncipe_real_2_bedroom_apartment_with_balcony",
+      "gps_coordinates": {
+        "latitude": 38.717,
+        "longitude": -9.1495
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$164",
+        "extracted_lowest": 164,
+        "before_taxes_fees": "$154",
+        "extracted_before_taxes_fees": 154
+      },
+      "total_rate": {
+        "lowest": "$492",
+        "extracted_lowest": 492
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 169
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 174
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.9,
+      "reviews": 141,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_0_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 16,
+          "positive": 13,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_1_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 20,
+          "positive": 17,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_2_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 24,
+          "positive": 21,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_3_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_4_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 16,
+          "positive": 10,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "cat_5_sample_pr_ncipe_real_2_bedroom_apartment_with_balcony"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Self check-in"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Príncipe Real, Lisbon, Portugal",
+      "tripadvisor_id": null
+    },
+    {
+      "type": "vacation rental",
+      "name": "Quiet studio near Campo de Ourique market",
+      "description": "Entire apartment in Campo de Ourique. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_quiet_studio_near_campo_de_ourique_market",
+      "property_token": "sample_quiet_studio_near_campo_de_ourique_market",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_quiet_studio_near_campo_de_ourique_market",
+      "gps_coordinates": {
+        "latitude": 38.7176,
+        "longitude": -9.1658
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$79",
+        "extracted_lowest": 79,
+        "before_taxes_fees": "$74",
+        "extracted_before_taxes_fees": 74
+      },
+      "total_rate": {
+        "lowest": "$237",
+        "extracted_lowest": 237
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 81
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 84
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.7,
+      "reviews": 212,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_0_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 30,
+          "positive": 28,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "cat_1_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 36,
+          "positive": 30,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "cat_2_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 17,
+          "positive": 15,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "cat_3_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_4_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 30,
+          "positive": 20,
+          "negative": 11,
+          "neutral": 0,
+          "category_token": "cat_5_sample_quiet_studio_near_campo_de_ourique_market"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 36,
+          "positive": 30,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "cat_6_sample_quiet_studio_near_campo_de_ourique_market"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Self check-in",
+        "Dedicated workspace"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "24 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Campo de Ourique, Lisbon, Portugal",
+      "tripadvisor_id": null
+    },
+    {
+      "type": "vacation rental",
+      "name": "Bright flat by Avenida da Liberdade, work desk + fast Wi‑Fi",
+      "description": "Entire apartment in Avenida da Liberdade. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi",
+      "property_token": "sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi",
+      "gps_coordinates": {
+        "latitude": 38.7214,
+        "longitude": -9.1453
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$112",
+        "extracted_lowest": 112,
+        "before_taxes_fees": "$105",
+        "extracted_before_taxes_fees": 105
+      },
+      "total_rate": {
+        "lowest": "$336",
+        "extracted_lowest": 336
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 115
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 119
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.8,
+      "reviews": 167,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_0_sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 28,
+          "positive": 25,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_1_sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 13,
+          "positive": 12,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_2_sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 18,
+          "positive": 15,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_3_sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_4_sample_bright_flat_by_avenida_da_liberdade_work_desk_fast_wi_fi"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "28 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Avenida da Liberdade, Lisbon, Portugal",
+      "tripadvisor_id": null
+    },
+    {
+      "type": "vacation rental",
+      "name": "Graça terrace apartment",
+      "description": "Entire apartment in Graça. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_gra_a_terrace_apartment",
+      "property_token": "sample_gra_a_terrace_apartment",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_gra_a_terrace_apartment",
+      "gps_coordinates": {
+        "latitude": 38.7166,
+        "longitude": -9.1312
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$95",
+        "extracted_lowest": 95,
+        "before_taxes_fees": "$89",
+        "extracted_before_taxes_fees": 89
+      },
+      "total_rate": {
+        "lowest": "$285",
+        "extracted_lowest": 285
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 98
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 101
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.6,
+      "reviews": 88,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 15,
+          "positive": 12,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_0_sample_gra_a_terrace_apartment"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_1_sample_gra_a_terrace_apartment"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 10,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_2_sample_gra_a_terrace_apartment"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 12,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_3_sample_gra_a_terrace_apartment"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 15,
+          "positive": 12,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_4_sample_gra_a_terrace_apartment"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 7,
+          "positive": 5,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "cat_5_sample_gra_a_terrace_apartment"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Self check-in"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Graça, Lisbon, Portugal",
+      "tripadvisor_id": null
+    },
+    {
+      "type": "vacation rental",
+      "name": "Cais do Sodré riverside 1-bedroom",
+      "description": "Entire apartment in Cais do Sodré. Kitchen, washer, self check-in.",
+      "link": "https://example.com/sample_cais_do_sodr_riverside_1_bedroom",
+      "property_token": "sample_cais_do_sodr_riverside_1_bedroom",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_cais_do_sodr_riverside_1_bedroom",
+      "gps_coordinates": {
+        "latitude": 38.7062,
+        "longitude": -9.1447
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$121",
+        "extracted_lowest": 121,
+        "before_taxes_fees": "$114",
+        "extracted_before_taxes_fees": 114
+      },
+      "total_rate": {
+        "lowest": "$363",
+        "extracted_lowest": 363
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 125
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 128
+          }
+        }
+      ],
+      "hotel_class": null,
+      "extracted_hotel_class": null,
+      "overall_rating": 4.5,
+      "reviews": 133,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_0_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 15,
+          "positive": 12,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_1_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 19,
+          "positive": 16,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_2_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_3_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "cat_4_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 15,
+          "positive": 10,
+          "negative": 5,
+          "neutral": 0,
+          "category_token": "cat_5_sample_cais_do_sodr_riverside_1_bedroom"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 19,
+          "positive": 16,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "cat_6_sample_cais_do_sodr_riverside_1_bedroom"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Self check-in",
+        "Dedicated workspace"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "42 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Cais do Sodré, Lisbon, Portugal",
+      "tripadvisor_id": null
+    }
+  ],
+  "serpapi_pagination": {}
+}

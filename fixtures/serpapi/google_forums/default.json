@@ -1,0 +1,74 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "google_forums"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Where to stay in Lisbon for a month (remote work)?",
+      "link": "https://www.reddit.com/r/sample/comments/b",
+      "source": "Reddit · r/digitalnomad",
+      "snippet": "Avenidas Novas and Campo de Ourique are quieter and flatter than Alfama or Bairro Alto, with good cafés and the metro nearby.",
+      "date": "3 months ago",
+      "displayed_meta": "86 comments · 3 months ago"
+    },
+    {
+      "position": 2,
+      "title": "Bairro Alto vs Chiado for first time visitors",
+      "link": "https://www.reddit.com/r/sample/comments/c",
+      "source": "Reddit · r/lisbon",
+      "snippet": "Bairro Alto is fun but loud until 2am on weekends. Chiado is right next to it and much quieter at night.",
+      "date": "5 months ago",
+      "displayed_meta": "142 comments · 5 months ago"
+    },
+    {
+      "position": 3,
+      "title": "Is Alfama too hilly with luggage?",
+      "link": "https://www.reddit.com/r/sample/comments/d",
+      "source": "Tripadvisor · Lisbon Forum",
+      "snippet": "Yes, cobbled and steep. Take a taxi to the door and pack light. Beautiful at night though.",
+      "date": "8 months ago",
+      "displayed_meta": "23 replies · 8 months ago"
+    },
+    {
+      "position": 4,
+      "title": "Long stay hotel discounts in Lisbon",
+      "link": "https://www.reddit.com/r/sample/comments/e",
+      "source": "Reddit · r/solotravel",
+      "snippet": "Email hotels directly for a 3–4 week rate; several of us got 20–30% off plus weekly cleaning.",
+      "date": "2 months ago",
+      "displayed_meta": "41 comments · 2 months ago"
+    },
+    {
+      "position": 5,
+      "title": "Avenida da Liberdade area — safe at night?",
+      "link": "https://www.reddit.com/r/sample/comments/f",
+      "source": "Tripadvisor · Lisbon Forum",
+      "snippet": "Very safe and well lit. Good base: metro, airport bus, and walking distance to Baixa.",
+      "date": "a year ago",
+      "displayed_meta": "17 replies · a year ago"
+    },
+    {
+      "position": 6,
+      "title": "Best neighbourhood near the Marquês de Pombal offices",
+      "link": "https://www.reddit.com/r/sample/comments/g",
+      "source": "Reddit · r/expats",
+      "snippet": "Avenidas Novas or Saldanha; 10–15 minutes walk or two metro stops to most offices around Marquês.",
+      "date": "4 months ago",
+      "displayed_meta": "58 comments · 4 months ago"
+    },
+    {
+      "position": 7,
+      "title": "Noise complaints: Cais do Sodré hotels",
+      "link": "https://www.reddit.com/r/sample/comments/h",
+      "source": "Reddit · r/lisbon",
+      "snippet": "Pink Street nightlife is right there. Great for going out, bad if you want to sleep before 3am.",
+      "date": "6 months ago",
+      "displayed_meta": "73 comments · 6 months ago"
+    }
+  ]
+}

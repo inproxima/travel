@@ -1,0 +1,66 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "tripadvisor_place"
+  },
+  "place_result": {
+    "type": "hotel",
+    "rating": 4.5,
+    "reviews": 1840,
+    "ranking": "#14 of 286 hotels in Lisbon",
+    "award": {
+      "type": "Travellers' Choice",
+      "name": "Travellers' Choice 2026"
+    },
+    "price_range": "$180 - $320",
+    "amenities": [
+      {
+        "name": "Free High Speed Internet (WiFi)"
+      },
+      {
+        "name": "Fitness Center"
+      },
+      {
+        "name": "Bar / lounge"
+      },
+      {
+        "name": "Breakfast available"
+      },
+      {
+        "name": "Airport transportation"
+      },
+      {
+        "name": "Non-smoking rooms"
+      }
+    ],
+    "subratings": [
+      {
+        "name": "Location",
+        "rating": 4.8
+      },
+      {
+        "name": "Rooms",
+        "rating": 4.4
+      },
+      {
+        "name": "Value",
+        "rating": 4.1
+      },
+      {
+        "name": "Cleanliness",
+        "rating": 4.6
+      },
+      {
+        "name": "Service",
+        "rating": 4.7
+      },
+      {
+        "name": "Sleep Quality",
+        "rating": 4.3
+      }
+    ]
+  }
+}

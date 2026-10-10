@@ -1,0 +1,263 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "tripadvisor"
+  },
+  "places": [
+    {
+      "position": 1,
+      "title": "Avenida Palace",
+      "place_id": "195263",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195263-Reviews.html",
+      "description": "Hotel in Baixa",
+      "rating": 4.5,
+      "reviews": 2496,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Five minutes on foot to the metro and the river. We walked everywhere, even up to the castle."
+      }
+    },
+    {
+      "position": 2,
+      "title": "Memmo Alfama",
+      "place_id": "2398765",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d2398765-Reviews.html",
+      "description": "Hotel in Alfama",
+      "rating": 5,
+      "reviews": 1512,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Very quiet at night, blackout curtains and a great mattress. Slept better than at home."
+      }
+    },
+    {
+      "position": 3,
+      "title": "Hotel Lisboa Plaza",
+      "place_id": "189207",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d189207-Reviews.html",
+      "description": "Hotel in Avenida da Liberdade",
+      "rating": 4.5,
+      "reviews": 1768,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "The connection was slow after 8pm. Not great if you need to work; the lobby was better."
+      }
+    },
+    {
+      "position": 4,
+      "title": "The Lumiares Hotel & Spa",
+      "place_id": "4377125",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d4377125-Reviews.html",
+      "description": "Hotel in Bairro Alto",
+      "rating": 5,
+      "reviews": 1072,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Building work started at 8am on weekdays. Hotel didn't mention it when booking."
+      }
+    },
+    {
+      "position": 5,
+      "title": "Hotel Britania",
+      "place_id": "195312",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195312-Reviews.html",
+      "description": "Hotel in Avenida da Liberdade",
+      "rating": 4.5,
+      "reviews": 896,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Gym was small but well equipped and open 24 hours, which suited my schedule."
+      }
+    },
+    {
+      "position": 6,
+      "title": "Pestana Palace Lisboa",
+      "place_id": "195250",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195250-Reviews.html",
+      "description": "Hotel in Alcântara",
+      "rating": 4.5,
+      "reviews": 3528,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "On a long trip the same-day laundry was a lifesaver and reasonably priced."
+      }
+    },
+    {
+      "position": 7,
+      "title": "Sheraton Lisboa Hotel & Spa",
+      "place_id": "190205",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d190205-Reviews.html",
+      "description": "Hotel in Marquês de Pombal",
+      "rating": 4.5,
+      "reviews": 4184,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Clean and central, but the standard double is tiny. Fine for a couple of nights, not for longer."
+      }
+    },
+    {
+      "position": 8,
+      "title": "Hotel Mundial",
+      "place_id": "190158",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d190158-Reviews.html",
+      "description": "Hotel in Mouraria",
+      "rating": 4.5,
+      "reviews": 4896,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Lisbon is steep — be ready for hills. The hotel is close to the tram 28 stop, which helps."
+      }
+    },
+    {
+      "position": 9,
+      "title": "Martinhal Lisbon Chiado",
+      "place_id": "7262810",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d7262810-Reviews.html",
+      "description": "Hotel in Chiado",
+      "rating": 5,
+      "reviews": 784,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "20 minutes by taxi from the airport, or the metro red/green line with one change."
+      }
+    },
+    {
+      "position": 10,
+      "title": "NH Collection Lisboa Liberdade",
+      "place_id": "232850",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d232850-Reviews.html",
+      "description": "Hotel in Avenida da Liberdade",
+      "rating": 4.5,
+      "reviews": 1640,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "€25 for an average buffet. Plenty of cafés nearby do a better breakfast for a third of the price."
+      }
+    },
+    {
+      "position": 11,
+      "title": "Hotel Alif Avenidas",
+      "place_id": "236123",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d236123-Reviews.html",
+      "description": "Hotel in Avenidas Novas",
+      "rating": 4.5,
+      "reviews": 2384,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Could hear the neighbours' TV. Earplugs provided, which says it all."
+      }
+    },
+    {
+      "position": 12,
+      "title": "My Story Hotel Tejo",
+      "place_id": "195284",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195284-Reviews.html",
+      "description": "Hotel in Baixa",
+      "rating": 4.5,
+      "reviews": 2712,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Fresh pastéis de nata every morning and great coffee. Breakfast terrace has a view."
+      }
+    },
+    {
+      "position": 13,
+      "title": "Hotel Convento do Salvador",
+      "place_id": "6436451",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d6436451-Reviews.html",
+      "description": "Hotel in Alfama",
+      "rating": 4.5,
+      "reviews": 712,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Reception organised a late check-out and called a taxi at 5am for our flight. Super kind."
+      }
+    },
+    {
+      "position": 14,
+      "title": "Corinthia Lisbon",
+      "place_id": "195252",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195252-Reviews.html",
+      "description": "Hotel in Sete Rios",
+      "rating": 4.5,
+      "reviews": 5472,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Connecting rooms, cots provided, and the staff loved our kids. Pool was a hit."
+      }
+    },
+    {
+      "position": 15,
+      "title": "Lisboa Pessoa Hotel",
+      "place_id": "12139380",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d12139380-Reviews.html",
+      "description": "Hotel in Chiado",
+      "rating": 4.5,
+      "reviews": 1248,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Beautiful tiles and high ceilings. It feels like old Lisbon but the rooms are renovated."
+      }
+    },
+    {
+      "position": 16,
+      "title": "Hotel Real Palácio",
+      "place_id": "195271",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195271-Reviews.html",
+      "description": "Hotel in Amoreiras",
+      "rating": 4.5,
+      "reviews": 1976,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Asked for a high floor and got a view of the Tagus. Sunsets from the room were unforgettable."
+      }
+    },
+    {
+      "position": 17,
+      "title": "Lumen Hotel & The Urban Gardens",
+      "place_id": "13154270",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d13154270-Reviews.html",
+      "description": "Hotel in Avenida da Liberdade",
+      "rating": 4.5,
+      "reviews": 1144,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "Beautiful room and friendly staff. Street noise from the bars on Friday and Saturday nights; ask for a room at the back."
+      }
+    },
+    {
+      "position": 18,
+      "title": "Hotel do Chiado",
+      "place_id": "195281",
+      "place_type": "ACCOMMODATION",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g189158-d195281-Reviews.html",
+      "description": "Hotel in Chiado",
+      "rating": 4.5,
+      "reviews": 808,
+      "location": "Lisbon, Portugal",
+      "highlighted_review": {
+        "text": "In August the AC couldn't keep up and the room was warm all night. Staff tried to help."
+      }
+    }
+  ]
+}

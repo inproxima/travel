@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
-import { BudgetExceededError } from "@/lib/serpapi/budget";
-import { SerpApiError } from "@/lib/serpapi/client";
+import { env } from "@/lib/env";
+import { Budget, BudgetExceededError } from "@/lib/serpapi/budget";
+import { SerpApiError, type CallContext } from "@/lib/serpapi/client";
 
 /** Turns any thrown error into a JSON response the UI can show as-is. */
 export function errorResponse(err: unknown) {
@@ -28,5 +29,19 @@ export async function readJson(req: Request): Promise<unknown> {
     return await req.json();
   } catch {
     return {};
+  }
+}
+
+/**
+ * Runs one Flights/Hotels action with its own credit budget and the request's
+ * abort signal, and reports how many credits it spent.
+ */
+export async function withCredits<T extends object>(req: Request, fn: (ctx: CallContext) => Promise<T>) {
+  try {
+    const budget = new Budget(env().MAX_CALLS_PER_SEARCH);
+    const result = await fn({ budget, signal: req.signal });
+    return NextResponse.json({ ...result, credits: budget.snapshot().spent });
+  } catch (err) {
+    return errorResponse(err);
   }
 }

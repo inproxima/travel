@@ -69,3 +69,89 @@ export type ForumPost = {
   date: string | null;
   meta: string | null;
 };
+
+export type ReviewCategory = {
+  name: string;
+  mentions: number | null;
+  positive: number | null;
+  negative: number | null;
+  categoryToken: string | null;
+};
+
+export type Hotel = {
+  /** property_token when Google gives one; otherwise a stable hash. */
+  id: string;
+  propertyToken: string | null;
+  name: string;
+  kind: "hotel" | "vacation rental";
+  description: string | null;
+  link: string | null;
+  coords: LatLng | null;
+  checkInTime: string | null;
+  checkOutTime: string | null;
+  nightly: number | null;
+  nightlyBeforeTaxes: number | null;
+  total: number | null;
+  hotelClass: number | null;
+  rating: number | null;
+  reviewCount: number | null;
+  locationRating: number | null;
+  categories: ReviewCategory[];
+  amenities: string[];
+  images: string[];
+  nearby: { name: string; transport: { type: string; duration: string }[] }[];
+  deal: string | null;
+  freeCancellation: boolean | null;
+  sourcePrices: { source: string; nightly: number | null }[];
+};
+
+export type HotelOffer = {
+  source: string;
+  link: string | null;
+  logo: string | null;
+  nightly: number | null;
+  total: number | null;
+  freeCancellation: boolean | null;
+  official: boolean;
+};
+
+export type OtherReviewSource = {
+  source: string;
+  rating: number | null;
+  maxRating: number | null;
+  count: number | null;
+  link: string | null;
+  sourceNumber: number | null;
+};
+
+export type HotelDetails = {
+  address: string | null;
+  phone: string | null;
+  typicalRange: { low: number | null; high: number | null } | null;
+  offers: HotelOffer[];
+  otherReviews: OtherReviewSource[];
+  /** Taken from the Tripadvisor review link, when Google lists one. */
+  tripadvisorPlaceId: string | null;
+};
+
+export type TripadvisorPlace = {
+  placeId: string;
+  title: string;
+  type: string | null;
+  rating: number | null;
+  reviewCount: number | null;
+  location: string | null;
+  link: string | null;
+  thumbnail: string | null;
+  highlight: string | null;
+};
+
+export type TripadvisorDetails = {
+  ranking: string | null;
+  rating: number | null;
+  reviewCount: number | null;
+  award: string | null;
+  priceRange: string | null;
+  amenities: string[];
+  subratings: { label: string; rating: number }[];
+};

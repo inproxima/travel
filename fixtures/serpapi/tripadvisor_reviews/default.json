@@ -1,0 +1,10 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "tripadvisor_reviews"
+  },
+  "reviews": []
+}

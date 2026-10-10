@@ -1,5 +1,6 @@
 import { env } from "@/lib/env";
-import { loadFixture, mockLatency, recordFixture, requestHash } from "@/lib/fixtures";
+import { mockLatency, recordFixture, requestHash } from "@/lib/fixtures";
+import { mockSerpapi } from "@/lib/mock/serpapi";
 import { Budget } from "./budget";
 import { cacheGet, cacheKey, cacheSet } from "./cache";
 
@@ -54,23 +55,6 @@ function cleanParams(engine: Engine, params: SerpParams): Record<string, string>
   return out;
 }
 
-/** Which hand-built sample answers a request in mock mode. */
-function mockVariant(engine: Engine, p: Record<string, string>): string | undefined {
-  switch (engine) {
-    case "google_flights":
-      if (p.booking_token) return "booking";
-      if (p.departure_token) return "returns";
-      return `class-${p.travel_class ?? "1"}`;
-    case "google_hotels":
-      if (p.property_token) return "details";
-      if (p.vacation_rentals === "true") return "rentals";
-      if (p.next_page_token) return "page2";
-      return undefined;
-    default:
-      return undefined;
-  }
-}
-
 async function fetchLive(params: Record<string, string>, signal?: AbortSignal): Promise<Record<string, unknown>> {
   const url = `${ENDPOINT}?${new URLSearchParams({ ...params, api_key: env().SERPAPI_API_KEY })}`;
   const res = await fetch(url, { signal, headers: { accept: "application/json" }, cache: "no-store" });
@@ -113,7 +97,7 @@ export async function serpapi<T = Record<string, unknown>>(
     let data: Record<string, unknown>;
     if (e.MOCK_MODE) {
       await mockLatency();
-      data = (await loadFixture("serpapi", engine, requestHash(clean), mockVariant(engine, clean))) as Record<string, unknown>;
+      data = await mockSerpapi(engine, clean);
     } else {
       data = await fetchLive(clean, ctx.signal);
       await recordFixture("serpapi", engine, requestHash(clean), data);

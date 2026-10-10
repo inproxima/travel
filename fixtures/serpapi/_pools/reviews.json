@@ -1,0 +1,262 @@
+[
+  {
+    "rating": 5,
+    "title": "Perfect location",
+    "text": "Five minutes on foot to the metro and the river. We walked everywhere, even up to the castle.",
+    "trip": "Couples",
+    "topic": "Location",
+    "author": "Marta S.",
+    "date": "2 weeks ago",
+    "iso": "2026-09-24"
+  },
+  {
+    "rating": 5,
+    "title": "Great for a long stay",
+    "text": "Stayed a month for work. Desk in the room was big enough, Wi-Fi was fast and stable for video calls, and housekeeping was flexible.",
+    "trip": "Business",
+    "topic": "Wi-Fi",
+    "author": "James K.",
+    "date": "a month ago",
+    "iso": "2026-09-08"
+  },
+  {
+    "rating": 4,
+    "title": "Lovely but noisy on weekends",
+    "text": "Beautiful room and friendly staff. Street noise from the bars on Friday and Saturday nights; ask for a room at the back.",
+    "trip": "Friends",
+    "topic": "Noise",
+    "author": "Ana P.",
+    "date": "2 months ago",
+    "iso": "2026-08-12"
+  },
+  {
+    "rating": 5,
+    "title": "Breakfast was the highlight",
+    "text": "Fresh pastéis de nata every morning and great coffee. Breakfast terrace has a view.",
+    "trip": "Family",
+    "topic": "Breakfast",
+    "author": "Lukas W.",
+    "date": "3 months ago",
+    "iso": "2026-07-15"
+  },
+  {
+    "rating": 3,
+    "title": "Small rooms",
+    "text": "Clean and central, but the standard double is tiny. Fine for a couple of nights, not for longer.",
+    "trip": "Solo",
+    "topic": "Room",
+    "author": "Priya R.",
+    "date": "5 months ago",
+    "iso": "2026-05-20"
+  },
+  {
+    "rating": 5,
+    "title": "Quiet and comfortable",
+    "text": "Very quiet at night, blackout curtains and a great mattress. Slept better than at home.",
+    "trip": "Business",
+    "topic": "Noise",
+    "author": "Tom H.",
+    "date": "6 months ago",
+    "iso": "2026-04-11"
+  },
+  {
+    "rating": 4,
+    "title": "Good value for Lisbon",
+    "text": "Price was fair for the area. Nothing fancy, but spotless and the staff gave excellent restaurant tips.",
+    "trip": "Couples",
+    "topic": "Value",
+    "author": "Sofia M.",
+    "date": "8 months ago",
+    "iso": "2026-02-02"
+  },
+  {
+    "rating": 2,
+    "title": "Air conditioning struggled",
+    "text": "In August the AC couldn't keep up and the room was warm all night. Staff tried to help.",
+    "trip": "Family",
+    "topic": "Room",
+    "author": "Daniel O.",
+    "date": "a year ago",
+    "iso": "2025-10-01"
+  },
+  {
+    "rating": 5,
+    "title": "Staff went above and beyond",
+    "text": "Reception organised a late check-out and called a taxi at 5am for our flight. Super kind.",
+    "trip": "Couples",
+    "topic": "Service",
+    "author": "Chen L.",
+    "date": "2 weeks ago",
+    "iso": "2026-09-24"
+  },
+  {
+    "rating": 4,
+    "title": "Hilly but worth it",
+    "text": "Lisbon is steep — be ready for hills. The hotel is close to the tram 28 stop, which helps.",
+    "trip": "Solo",
+    "topic": "Location",
+    "author": "Emma B.",
+    "date": "a month ago",
+    "iso": "2026-09-08"
+  },
+  {
+    "rating": 3,
+    "title": "Wi-Fi drops in the evening",
+    "text": "The connection was slow after 8pm. Not great if you need to work; the lobby was better.",
+    "trip": "Business",
+    "topic": "Wi-Fi",
+    "author": "Rui C.",
+    "date": "2 months ago",
+    "iso": "2026-08-12"
+  },
+  {
+    "rating": 5,
+    "title": "Spotless",
+    "text": "Housekeeping was excellent every day. Bathroom was modern and very clean.",
+    "trip": "Couples",
+    "topic": "Cleanliness",
+    "author": "Hannah F.",
+    "date": "3 months ago",
+    "iso": "2026-07-15"
+  },
+  {
+    "rating": 4,
+    "title": "Rooftop bar is busy",
+    "text": "The rooftop is lovely at sunset but it's popular with non-guests, so it gets crowded.",
+    "trip": "Friends",
+    "topic": "Service",
+    "author": "Mateo G.",
+    "date": "5 months ago",
+    "iso": "2026-05-20"
+  },
+  {
+    "rating": 5,
+    "title": "Ideal for families",
+    "text": "Connecting rooms, cots provided, and the staff loved our kids. Pool was a hit.",
+    "trip": "Family",
+    "topic": "Service",
+    "author": "Olivia T.",
+    "date": "6 months ago",
+    "iso": "2026-04-11"
+  },
+  {
+    "rating": 4,
+    "title": "Easy airport transfer",
+    "text": "20 minutes by taxi from the airport, or the metro red/green line with one change.",
+    "trip": "Business",
+    "topic": "Location",
+    "author": "Marta S.",
+    "date": "8 months ago",
+    "iso": "2026-02-02"
+  },
+  {
+    "rating": 2,
+    "title": "Construction next door",
+    "text": "Building work started at 8am on weekdays. Hotel didn't mention it when booking.",
+    "trip": "Couples",
+    "topic": "Noise",
+    "author": "James K.",
+    "date": "a year ago",
+    "iso": "2025-10-01"
+  },
+  {
+    "rating": 5,
+    "title": "Monthly rate was excellent",
+    "text": "Asked for a long-stay rate by email and got a big discount for 30 nights, with weekly cleaning.",
+    "trip": "Solo",
+    "topic": "Value",
+    "author": "Ana P.",
+    "date": "2 weeks ago",
+    "iso": "2026-09-24"
+  },
+  {
+    "rating": 4,
+    "title": "Kitchenette is handy",
+    "text": "Having a small kitchenette made a three-week stay much easier. Supermarket around the corner.",
+    "trip": "Business",
+    "topic": "Room",
+    "author": "Lukas W.",
+    "date": "a month ago",
+    "iso": "2026-09-08"
+  },
+  {
+    "rating": 5,
+    "title": "Gorgeous historic building",
+    "text": "Beautiful tiles and high ceilings. It feels like old Lisbon but the rooms are renovated.",
+    "trip": "Couples",
+    "topic": "Room",
+    "author": "Priya R.",
+    "date": "2 months ago",
+    "iso": "2026-08-12"
+  },
+  {
+    "rating": 3,
+    "title": "Breakfast overpriced",
+    "text": "€25 for an average buffet. Plenty of cafés nearby do a better breakfast for a third of the price.",
+    "trip": "Friends",
+    "topic": "Breakfast",
+    "author": "Tom H.",
+    "date": "3 months ago",
+    "iso": "2026-07-15"
+  },
+  {
+    "rating": 4,
+    "title": "Good gym",
+    "text": "Gym was small but well equipped and open 24 hours, which suited my schedule.",
+    "trip": "Business",
+    "topic": "Service",
+    "author": "Sofia M.",
+    "date": "5 months ago",
+    "iso": "2026-05-20"
+  },
+  {
+    "rating": 5,
+    "title": "Very safe area",
+    "text": "Walked back late at night and always felt safe. Well-lit streets and lots of people around.",
+    "trip": "Solo",
+    "topic": "Location",
+    "author": "Daniel O.",
+    "date": "6 months ago",
+    "iso": "2026-04-11"
+  },
+  {
+    "rating": 4,
+    "title": "Elevator is tiny",
+    "text": "Lovely hotel but the lift fits two people and a suitcase. Expect to wait at check-out time.",
+    "trip": "Family",
+    "topic": "Room",
+    "author": "Chen L.",
+    "date": "8 months ago",
+    "iso": "2026-02-02"
+  },
+  {
+    "rating": 5,
+    "title": "River views",
+    "text": "Asked for a high floor and got a view of the Tagus. Sunsets from the room were unforgettable.",
+    "trip": "Couples",
+    "topic": "Room",
+    "author": "Emma B.",
+    "date": "a year ago",
+    "iso": "2025-10-01"
+  },
+  {
+    "rating": 3,
+    "title": "Thin walls",
+    "text": "Could hear the neighbours' TV. Earplugs provided, which says it all.",
+    "trip": "Business",
+    "topic": "Noise",
+    "author": "Rui C.",
+    "date": "2 weeks ago",
+    "iso": "2026-09-24"
+  },
+  {
+    "rating": 5,
+    "title": "Laundry service saved us",
+    "text": "On a long trip the same-day laundry was a lifesaver and reasonably priced.",
+    "trip": "Family",
+    "topic": "Service",
+    "author": "Hannah F.",
+    "date": "a month ago",
+    "iso": "2026-09-08"
+  }
+]

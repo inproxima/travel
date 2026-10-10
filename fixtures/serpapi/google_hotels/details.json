@@ -1,0 +1,19 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "google_hotels"
+  },
+  "name": "Sample property",
+  "address": "Lisbon, Portugal",
+  "phone": "+351 21 000 0000",
+  "typical_price_range": {
+    "extracted_lowest": 150,
+    "extracted_highest": 260
+  },
+  "featured_prices": [],
+  "prices": [],
+  "other_reviews": []
+}

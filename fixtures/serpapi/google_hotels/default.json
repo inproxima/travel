@@ -1,0 +1,1671 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "sample": true
+  },
+  "search_parameters": {
+    "engine": "google_hotels"
+  },
+  "search_information": {
+    "total_results": 214
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Avenida Palace",
+      "description": "5-star hotel in Baixa, Lisbon.",
+      "link": "https://example.com/sample_avenida_palace",
+      "property_token": "sample_avenida_palace",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_avenida_palace",
+      "gps_coordinates": {
+        "latitude": 38.7139,
+        "longitude": -9.1405
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$312",
+        "extracted_lowest": 312,
+        "before_taxes_fees": "$293",
+        "extracted_before_taxes_fees": 293
+      },
+      "total_rate": {
+        "lowest": "$936",
+        "extracted_lowest": 936
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 321
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 331
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.6,
+      "reviews": 3120,
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 250,
+          "positive": 230,
+          "negative": 20,
+          "neutral": 0,
+          "category_token": "cat_0_sample_avenida_palace"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 343,
+          "positive": 285,
+          "negative": 58,
+          "neutral": 0,
+          "category_token": "cat_1_sample_avenida_palace"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 437,
+          "positive": 376,
+          "negative": 61,
+          "neutral": 0,
+          "category_token": "cat_2_sample_avenida_palace"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 530,
+          "positive": 472,
+          "negative": 58,
+          "neutral": 0,
+          "category_token": "cat_3_sample_avenida_palace"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 250,
+          "positive": 230,
+          "negative": 20,
+          "neutral": 0,
+          "category_token": "cat_4_sample_avenida_palace"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Bar",
+        "Accessible",
+        "Spa",
+        "Kid-friendly",
+        "Airport shuttle",
+        "Pet-friendly"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Baixa, Lisbon, Portugal",
+      "tripadvisor_id": "195263"
+    },
+    {
+      "type": "hotel",
+      "name": "Memmo Alfama",
+      "description": "4-star hotel in Alfama, Lisbon.",
+      "link": "https://example.com/sample_memmo_alfama",
+      "property_token": "sample_memmo_alfama",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_memmo_alfama",
+      "gps_coordinates": {
+        "latitude": 38.7108,
+        "longitude": -9.1307
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$268",
+        "extracted_lowest": 268,
+        "before_taxes_fees": "$252",
+        "extracted_before_taxes_fees": 252
+      },
+      "total_rate": {
+        "lowest": "$804",
+        "extracted_lowest": 804
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 276
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 284
+          }
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "overall_rating": 4.7,
+      "reviews": 1890,
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 208,
+          "positive": 185,
+          "negative": 23,
+          "neutral": 0,
+          "category_token": "cat_0_sample_memmo_alfama"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 265,
+          "positive": 244,
+          "negative": 21,
+          "neutral": 0,
+          "category_token": "cat_1_sample_memmo_alfama"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 321,
+          "positive": 266,
+          "negative": 55,
+          "neutral": 0,
+          "category_token": "cat_2_sample_memmo_alfama"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 151,
+          "positive": 130,
+          "negative": 21,
+          "neutral": 0,
+          "category_token": "cat_3_sample_memmo_alfama"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 208,
+          "positive": 185,
+          "negative": 23,
+          "neutral": 0,
+          "category_token": "cat_4_sample_memmo_alfama"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 265,
+          "positive": 172,
+          "negative": 93,
+          "neutral": 0,
+          "category_token": "cat_5_sample_memmo_alfama"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast ($)",
+        "Fitness centre",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Pool",
+        "Kid-friendly",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Alfama, Lisbon, Portugal",
+      "tripadvisor_id": "2398765"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Lisboa Plaza",
+      "description": "4-star hotel in Avenida da Liberdade, Lisbon.",
+      "link": "https://example.com/sample_hotel_lisboa_plaza",
+      "property_token": "sample_hotel_lisboa_plaza",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_hotel_lisboa_plaza",
+      "gps_coordinates": {
+        "latitude": 38.7196,
+        "longitude": -9.1449
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$189",
+        "extracted_lowest": 189,
+        "before_taxes_fees": "$178",
+        "extracted_before_taxes_fees": 178
+      },
+      "total_rate": {
+        "lowest": "$567",
+        "extracted_lowest": 567
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 195
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 200
+          }
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "overall_rating": 4.5,
+      "reviews": 2210,
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 309,
+          "positive": 266,
+          "negative": 43,
+          "neutral": 0,
+          "category_token": "cat_0_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 376,
+          "positive": 335,
+          "negative": 41,
+          "neutral": 0,
+          "category_token": "cat_1_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 177,
+          "positive": 163,
+          "negative": 14,
+          "neutral": 0,
+          "category_token": "cat_2_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 243,
+          "positive": 202,
+          "negative": 41,
+          "neutral": 0,
+          "category_token": "cat_3_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 309,
+          "positive": 266,
+          "negative": 43,
+          "neutral": 0,
+          "category_token": "cat_4_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 376,
+          "positive": 244,
+          "negative": 132,
+          "neutral": 0,
+          "category_token": "cat_5_sample_hotel_lisboa_plaza"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 177,
+          "positive": 163,
+          "negative": 14,
+          "neutral": 0,
+          "category_token": "cat_6_sample_hotel_lisboa_plaza"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Fitness centre",
+        "Bar",
+        "Room service",
+        "Spa",
+        "Pool",
+        "Airport shuttle",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "12 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Avenida da Liberdade, Lisbon, Portugal",
+      "tripadvisor_id": "189207"
+    },
+    {
+      "type": "hotel",
+      "name": "The Lumiares Hotel & Spa",
+      "description": "5-star hotel in Bairro Alto, Lisbon.",
+      "link": "https://example.com/sample_the_lumiares_hotel_spa",
+      "property_token": "sample_the_lumiares_hotel_spa",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_the_lumiares_hotel_spa",
+      "gps_coordinates": {
+        "latitude": 38.713,
+        "longitude": -9.1446
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$295",
+        "extracted_lowest": 295,
+        "before_taxes_fees": "$277",
+        "extracted_before_taxes_fees": 277
+      },
+      "total_rate": {
+        "lowest": "$885",
+        "extracted_lowest": 885
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 304
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 313
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.7,
+      "reviews": 1340,
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 228,
+          "positive": 189,
+          "negative": 39,
+          "neutral": 0,
+          "category_token": "cat_0_sample_the_lumiares_hotel_spa"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 107,
+          "positive": 92,
+          "negative": 15,
+          "neutral": 0,
+          "category_token": "cat_1_sample_the_lumiares_hotel_spa"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 147,
+          "positive": 131,
+          "negative": 16,
+          "neutral": 0,
+          "category_token": "cat_2_sample_the_lumiares_hotel_spa"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 188,
+          "positive": 173,
+          "negative": 15,
+          "neutral": 0,
+          "category_token": "cat_3_sample_the_lumiares_hotel_spa"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 228,
+          "positive": 189,
+          "negative": 39,
+          "neutral": 0,
+          "category_token": "cat_4_sample_the_lumiares_hotel_spa"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Bar",
+        "Accessible",
+        "Spa",
+        "Kid-friendly",
+        "Airport shuttle",
+        "Pet-friendly"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "42 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "16 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Bairro Alto, Lisbon, Portugal",
+      "tripadvisor_id": "4377125"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Britania",
+      "description": "4-star hotel in Avenida da Liberdade, Lisbon.",
+      "link": "https://example.com/sample_hotel_britania",
+      "property_token": "sample_hotel_britania",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_hotel_britania",
+      "gps_coordinates": {
+        "latitude": 38.7225,
+        "longitude": -9.1462
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$205",
+        "extracted_lowest": 205,
+        "before_taxes_fees": "$193",
+        "extracted_before_taxes_fees": 193
+      },
+      "total_rate": {
+        "lowest": "$615",
+        "extracted_lowest": 615
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 211
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 217
+          }
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "overall_rating": 4.6,
+      "reviews": 1120,
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 90,
+          "positive": 83,
+          "negative": 7,
+          "neutral": 0,
+          "category_token": "cat_0_sample_hotel_britania"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 123,
+          "positive": 102,
+          "negative": 21,
+          "neutral": 0,
+          "category_token": "cat_1_sample_hotel_britania"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 157,
+          "positive": 135,
+          "negative": 22,
+          "neutral": 0,
+          "category_token": "cat_2_sample_hotel_britania"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 190,
+          "positive": 169,
+          "negative": 21,
+          "neutral": 0,
+          "category_token": "cat_3_sample_hotel_britania"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 90,
+          "positive": 83,
+          "negative": 7,
+          "neutral": 0,
+          "category_token": "cat_4_sample_hotel_britania"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 123,
+          "positive": 80,
+          "negative": 43,
+          "neutral": 0,
+          "category_token": "cat_5_sample_hotel_britania"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast ($)",
+        "Fitness centre",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Pool",
+        "Kid-friendly",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Avenida da Liberdade, Lisbon, Portugal",
+      "tripadvisor_id": "195312"
+    },
+    {
+      "type": "hotel",
+      "name": "Pestana Palace Lisboa",
+      "description": "5-star hotel in Alcântara, Lisbon.",
+      "link": "https://example.com/sample_pestana_palace_lisboa",
+      "property_token": "sample_pestana_palace_lisboa",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_pestana_palace_lisboa",
+      "gps_coordinates": {
+        "latitude": 38.7067,
+        "longitude": -9.1857
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$238",
+        "extracted_lowest": 238,
+        "before_taxes_fees": "$224",
+        "extracted_before_taxes_fees": 224
+      },
+      "total_rate": {
+        "lowest": "$714",
+        "extracted_lowest": 714
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 245
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 252
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.5,
+      "reviews": 4410,
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 485,
+          "positive": 432,
+          "negative": 53,
+          "neutral": 0,
+          "category_token": "cat_0_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 617,
+          "positive": 568,
+          "negative": 49,
+          "neutral": 0,
+          "category_token": "cat_1_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 750,
+          "positive": 623,
+          "negative": 127,
+          "neutral": 0,
+          "category_token": "cat_2_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 353,
+          "positive": 304,
+          "negative": 49,
+          "neutral": 0,
+          "category_token": "cat_3_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 485,
+          "positive": 432,
+          "negative": 53,
+          "neutral": 0,
+          "category_token": "cat_4_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 617,
+          "positive": 401,
+          "negative": 216,
+          "neutral": 0,
+          "category_token": "cat_5_sample_pestana_palace_lisboa"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 750,
+          "positive": 623,
+          "negative": 127,
+          "neutral": 0,
+          "category_token": "cat_6_sample_pestana_palace_lisboa"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Fitness centre",
+        "Bar",
+        "Room service",
+        "Spa",
+        "Pool",
+        "Airport shuttle",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "24 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Alcântara, Lisbon, Portugal",
+      "tripadvisor_id": "195250"
+    },
+    {
+      "type": "hotel",
+      "name": "Sheraton Lisboa Hotel & Spa",
+      "description": "5-star hotel in Marquês de Pombal, Lisbon.",
+      "link": "https://example.com/sample_sheraton_lisboa_hotel_spa",
+      "property_token": "sample_sheraton_lisboa_hotel_spa",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_sheraton_lisboa_hotel_spa",
+      "gps_coordinates": {
+        "latitude": 38.7317,
+        "longitude": -9.1477
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$221",
+        "extracted_lowest": 221,
+        "before_taxes_fees": "$208",
+        "extracted_before_taxes_fees": 208
+      },
+      "total_rate": {
+        "lowest": "$663",
+        "extracted_lowest": 663
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 228
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 234
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.4,
+      "reviews": 5230,
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 732,
+          "positive": 630,
+          "negative": 102,
+          "neutral": 0,
+          "category_token": "cat_0_sample_sheraton_lisboa_hotel_spa"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 889,
+          "positive": 791,
+          "negative": 98,
+          "neutral": 0,
+          "category_token": "cat_1_sample_sheraton_lisboa_hotel_spa"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 418,
+          "positive": 385,
+          "negative": 33,
+          "neutral": 0,
+          "category_token": "cat_2_sample_sheraton_lisboa_hotel_spa"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 575,
+          "positive": 477,
+          "negative": 98,
+          "neutral": 0,
+          "category_token": "cat_3_sample_sheraton_lisboa_hotel_spa"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 732,
+          "positive": 630,
+          "negative": 102,
+          "neutral": 0,
+          "category_token": "cat_4_sample_sheraton_lisboa_hotel_spa"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Bar",
+        "Accessible",
+        "Spa",
+        "Kid-friendly",
+        "Airport shuttle",
+        "Pet-friendly"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "28 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Marquês de Pombal, Lisbon, Portugal",
+      "tripadvisor_id": "190205"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Mundial",
+      "description": "4-star hotel in Mouraria, Lisbon.",
+      "link": "https://example.com/sample_hotel_mundial",
+      "property_token": "sample_hotel_mundial",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_hotel_mundial",
+      "gps_coordinates": {
+        "latitude": 38.7158,
+        "longitude": -9.1366
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$159",
+        "extracted_lowest": 159,
+        "before_taxes_fees": "$149",
+        "extracted_before_taxes_fees": 149
+      },
+      "total_rate": {
+        "lowest": "$477",
+        "extracted_lowest": 477
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 164
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 169
+          }
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "overall_rating": 4.3,
+      "reviews": 6120,
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 1040,
+          "positive": 863,
+          "negative": 177,
+          "neutral": 0,
+          "category_token": "cat_0_sample_hotel_mundial"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 490,
+          "positive": 421,
+          "negative": 69,
+          "neutral": 0,
+          "category_token": "cat_1_sample_hotel_mundial"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 673,
+          "positive": 599,
+          "negative": 74,
+          "neutral": 0,
+          "category_token": "cat_2_sample_hotel_mundial"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 857,
+          "positive": 788,
+          "negative": 69,
+          "neutral": 0,
+          "category_token": "cat_3_sample_hotel_mundial"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 1040,
+          "positive": 863,
+          "negative": 177,
+          "neutral": 0,
+          "category_token": "cat_4_sample_hotel_mundial"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 490,
+          "positive": 319,
+          "negative": 172,
+          "neutral": 0,
+          "category_token": "cat_5_sample_hotel_mundial"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast ($)",
+        "Fitness centre",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Pool",
+        "Kid-friendly",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Mouraria, Lisbon, Portugal",
+      "tripadvisor_id": "190158"
+    },
+    {
+      "type": "hotel",
+      "name": "Martinhal Lisbon Chiado",
+      "description": "5-star hotel in Chiado, Lisbon.",
+      "link": "https://example.com/sample_martinhal_lisbon_chiado",
+      "property_token": "sample_martinhal_lisbon_chiado",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_martinhal_lisbon_chiado",
+      "gps_coordinates": {
+        "latitude": 38.7113,
+        "longitude": -9.1418
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$345",
+        "extracted_lowest": 345,
+        "before_taxes_fees": "$324",
+        "extracted_before_taxes_fees": 324
+      },
+      "total_rate": {
+        "lowest": "$1035",
+        "extracted_lowest": 1035
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 355
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 366
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.7,
+      "reviews": 980,
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 78,
+          "positive": 72,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "cat_0_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 108,
+          "positive": 90,
+          "negative": 18,
+          "neutral": 0,
+          "category_token": "cat_1_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 137,
+          "positive": 118,
+          "negative": 19,
+          "neutral": 0,
+          "category_token": "cat_2_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 167,
+          "positive": 149,
+          "negative": 18,
+          "neutral": 0,
+          "category_token": "cat_3_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 78,
+          "positive": 72,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "cat_4_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 108,
+          "positive": 70,
+          "negative": 38,
+          "neutral": 0,
+          "category_token": "cat_5_sample_martinhal_lisbon_chiado"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 137,
+          "positive": 118,
+          "negative": 19,
+          "neutral": 0,
+          "category_token": "cat_6_sample_martinhal_lisbon_chiado"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Fitness centre",
+        "Bar",
+        "Room service",
+        "Spa",
+        "Pool",
+        "Airport shuttle",
+        "Business centre"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "42 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Chiado, Lisbon, Portugal",
+      "tripadvisor_id": "7262810"
+    },
+    {
+      "type": "hotel",
+      "name": "NH Collection Lisboa Liberdade",
+      "description": "5-star hotel in Avenida da Liberdade, Lisbon.",
+      "link": "https://example.com/sample_nh_collection_lisboa_liberdade",
+      "property_token": "sample_nh_collection_lisboa_liberdade",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_nh_collection_lisboa_liberdade",
+      "gps_coordinates": {
+        "latitude": 38.7203,
+        "longitude": -9.1459
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$247",
+        "extracted_lowest": 247,
+        "before_taxes_fees": "$232",
+        "extracted_before_taxes_fees": 232
+      },
+      "total_rate": {
+        "lowest": "$741",
+        "extracted_lowest": 741
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 254
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 262
+          }
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.5,
+      "reviews": 2050,
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 226,
+          "positive": 201,
+          "negative": 25,
+          "neutral": 0,
+          "category_token": "cat_0_sample_nh_collection_lisboa_liberdade"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 287,
+          "positive": 264,
+          "negative": 23,
+          "neutral": 0,
+          "category_token": "cat_1_sample_nh_collection_lisboa_liberdade"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 348,
+          "positive": 289,
+          "negative": 59,
+          "neutral": 0,
+          "category_token": "cat_2_sample_nh_collection_lisboa_liberdade"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 164,
+          "positive": 141,
+          "negative": 23,
+          "neutral": 0,
+          "category_token": "cat_3_sample_nh_collection_lisboa_liberdade"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 226,
+          "positive": 201,
+          "negative": 25,
+          "neutral": 0,
+          "category_token": "cat_4_sample_nh_collection_lisboa_liberdade"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Bar",
+        "Accessible",
+        "Spa",
+        "Kid-friendly",
+        "Airport shuttle",
+        "Pet-friendly"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "12 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Avenida da Liberdade, Lisbon, Portugal",
+      "tripadvisor_id": "232850"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Alif Avenidas",
+      "description": "3-star hotel in Avenidas Novas, Lisbon.",
+      "link": "https://example.com/sample_hotel_alif_avenidas",
+      "property_token": "sample_hotel_alif_avenidas",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_hotel_alif_avenidas",
+      "gps_coordinates": {
+        "latitude": 38.7393,
+        "longitude": -9.145
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$98",
+        "extracted_lowest": 98,
+        "before_taxes_fees": "$92",
+        "extracted_before_taxes_fees": 92
+      },
+      "total_rate": {
+        "lowest": "$294",
+        "extracted_lowest": 294
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 101
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 104
+          }
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "overall_rating": 4.2,
+      "reviews": 2980,
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 417,
+          "positive": 359,
+          "negative": 58,
+          "neutral": 0,
+          "category_token": "cat_0_sample_hotel_alif_avenidas"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 507,
+          "positive": 451,
+          "negative": 56,
+          "neutral": 0,
+          "category_token": "cat_1_sample_hotel_alif_avenidas"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 238,
+          "positive": 219,
+          "negative": 19,
+          "neutral": 0,
+          "category_token": "cat_2_sample_hotel_alif_avenidas"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 328,
+          "positive": 272,
+          "negative": 56,
+          "neutral": 0,
+          "category_token": "cat_3_sample_hotel_alif_avenidas"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 417,
+          "positive": 359,
+          "negative": 58,
+          "neutral": 0,
+          "category_token": "cat_4_sample_hotel_alif_avenidas"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 507,
+          "positive": 330,
+          "negative": 177,
+          "neutral": 0,
+          "category_token": "cat_5_sample_hotel_alif_avenidas"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast ($)",
+        "Fitness centre",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Pool"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "16 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": false,
+      "address": "Avenidas Novas, Lisbon, Portugal",
+      "tripadvisor_id": "236123"
+    },
+    {
+      "type": "hotel",
+      "name": "My Story Hotel Tejo",
+      "description": "3-star hotel in Baixa, Lisbon.",
+      "link": "https://example.com/sample_my_story_hotel_tejo",
+      "property_token": "sample_my_story_hotel_tejo",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?engine=google_hotels&property_token=sample_my_story_hotel_tejo",
+      "gps_coordinates": {
+        "latitude": 38.7128,
+        "longitude": -9.1376
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "$131",
+        "extracted_lowest": 131,
+        "before_taxes_fees": "$123",
+        "extracted_before_taxes_fees": 123
+      },
+      "total_rate": {
+        "lowest": "$393",
+        "extracted_lowest": 393
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "rate_per_night": {
+            "extracted_lowest": 135
+          }
+        },
+        {
+          "source": "Expedia",
+          "rate_per_night": {
+            "extracted_lowest": 139
+          }
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "overall_rating": 4.3,
+      "reviews": 3390,
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 576,
+          "positive": 478,
+          "negative": 98,
+          "neutral": 0,
+          "category_token": "cat_0_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 271,
+          "positive": 233,
+          "negative": 38,
+          "neutral": 0,
+          "category_token": "cat_1_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 373,
+          "positive": 332,
+          "negative": 41,
+          "neutral": 0,
+          "category_token": "cat_2_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Room",
+          "description": "Room",
+          "total_mentioned": 475,
+          "positive": 437,
+          "negative": 38,
+          "neutral": 0,
+          "category_token": "cat_3_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 576,
+          "positive": 478,
+          "negative": 98,
+          "neutral": 0,
+          "category_token": "cat_4_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Noise",
+          "description": "Noise",
+          "total_mentioned": 271,
+          "positive": 176,
+          "negative": 95,
+          "neutral": 0,
+          "category_token": "cat_5_sample_my_story_hotel_tejo"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 373,
+          "positive": 332,
+          "negative": 41,
+          "neutral": 0,
+          "category_token": "cat_6_sample_my_story_hotel_tejo"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Fitness centre",
+        "Bar",
+        "Room service",
+        "Spa",
+        "Pool"
+      ],
+      "images": [],
+      "nearby_places": [
+        {
+          "name": "Humberto Delgado Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34 min"
+            }
+          ]
+        },
+        {
+          "name": "Praça do Comércio",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "free_cancellation": true,
+      "address": "Baixa, Lisbon, Portugal",
+      "tripadvisor_id": "195284"
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 12,
+    "next_page_token": "sample_page_2"
+  }
+}

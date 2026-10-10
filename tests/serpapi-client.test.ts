@@ -32,8 +32,8 @@ describe("serpapi client (mock mode)", () => {
   it("does not charge the budget when a call fails", async () => {
     useTempEnv({ MOCK_MODE: "1" });
     const budget = new Budget(2);
-    // No sample data exists for this engine yet, so the mock call fails.
-    await expect(serpapi("google_forums", { q: "nothing here" }, { budget })).rejects.toThrow();
+    const aborted = AbortSignal.abort();
+    await expect(serpapi("google_forums", { q: "nothing here" }, { budget, signal: aborted })).rejects.toThrow();
     expect(budget.used).toBe(0);
   });
 });
