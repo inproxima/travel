@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { haversineKm, nightsBetween } from "@/lib/geo";
 import { loadFixture, requestHash } from "@/lib/fixtures";
+import { mockDeals, mockFlights } from "./flights";
 import { seeded, shuffle } from "./random";
 
 // Sample responses for `./run.sh mock`. Static fixtures are adapted to the
@@ -222,9 +223,9 @@ export async function mockSerpapi(engine: string, params: Params): Promise<Json>
     case "google_maps_directions":
       return directions(params);
     case "google_flights":
-      if (params.booking_token) return (await loadFixture("serpapi", engine, "", "booking")) as Json;
-      if (params.departure_token) return (await loadFixture("serpapi", engine, "", "returns")) as Json;
-      return (await loadFixture("serpapi", engine, "", `class-${params.travel_class ?? "1"}`)) as Json;
+      return mockFlights(params);
+    case "google_flights_deals":
+      return mockDeals(params);
     default:
       return (await loadFixture("serpapi", engine, "")) as Json;
   }

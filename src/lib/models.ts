@@ -155,3 +155,73 @@ export type TripadvisorDetails = {
   amenities: string[];
   subratings: { label: string; rating: number }[];
 };
+
+export type Cabin = 1 | 2 | 3 | 4;
+export const CABIN_NAMES: Record<Cabin, string> = { 1: "Economy", 2: "Premium Economy", 3: "Business", 4: "First" };
+
+export type FlightSegment = {
+  from: { code: string; name: string | null; time: string | null };
+  to: { code: string; name: string | null; time: string | null };
+  durationMin: number | null;
+  airline: string | null;
+  airlineLogo: string | null;
+  flightNumber: string | null;
+  airplane: string | null;
+  legroom: string | null;
+  travelClass: string | null;
+  overnight: boolean;
+  extensions: string[];
+};
+
+export type Itinerary = {
+  id: string;
+  segments: FlightSegment[];
+  layovers: { code: string; name: string | null; durationMin: number | null; overnight: boolean }[];
+  totalDurationMin: number | null;
+  price: number | null;
+  stops: number;
+  airlines: string[];
+  airlineLogo: string | null;
+  co2: { thisFlightKg: number | null; typicalKg: number | null; diffPercent: number | null } | null;
+  departureToken: string | null;
+  bookingToken: string | null;
+  /** Google's "best" pick for this search. */
+  best: boolean;
+};
+
+export type PriceInsights = {
+  lowestPrice: number | null;
+  level: string | null;
+  typicalLow: number | null;
+  typicalHigh: number | null;
+  history: { date: string; price: number }[];
+};
+
+export type BookingOption = {
+  seller: string;
+  isAirline: boolean;
+  price: number | null;
+  title: string | null;
+  extensions: string[];
+  url: string | null;
+  postData: string | null;
+  separateTickets: boolean;
+};
+
+export type Deal = {
+  destination: string;
+  country: string | null;
+  from: string | null;
+  to: string | null;
+  price: number | null;
+  usualPrice: number | null;
+  discountPercent: number | null;
+  outboundDate: string | null;
+  returnDate: string | null;
+  airline: string | null;
+  stops: number | null;
+  durationMin: number | null;
+  image: string | null;
+  link: string | null;
+  coords: LatLng | null;
+};
