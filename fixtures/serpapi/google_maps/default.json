@@ -1,0 +1,12 @@
+{
+  "search_metadata": { "status": "Success" },
+  "search_parameters": { "engine": "google_maps", "type": "search" },
+  "place_results": {
+    "title": "Avenida da Liberdade 110",
+    "place_id": "ChIJs4ws0X8zGQ0R3E1tK2ffcGA",
+    "data_id": "0xd19337fd12c8cb3:0x6070df672b6d4ddc",
+    "gps_coordinates": { "latitude": 38.7181, "longitude": -9.1446 },
+    "address": "Av. da Liberdade 110, 1250-146 Lisboa, Portugal",
+    "type": ["Office building"]
+  }
+}

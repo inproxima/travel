@@ -1,0 +1,38 @@
+{
+  "_note": "cpp = your value for one point in US cents. Used for points estimates. Edit in Settings.",
+  "airlines": [
+    { "id": "aeroplan", "name": "Air Canada Aeroplan", "cpp": 1.5 },
+    { "id": "united", "name": "United MileagePlus", "cpp": 1.3 },
+    { "id": "american", "name": "American AAdvantage", "cpp": 1.5 },
+    { "id": "delta", "name": "Delta SkyMiles", "cpp": 1.2 },
+    { "id": "alaska", "name": "Alaska Airlines (Atmos Rewards)", "cpp": 1.5 },
+    { "id": "jetblue", "name": "JetBlue TrueBlue", "cpp": 1.3 },
+    { "id": "flyingblue", "name": "Air France–KLM Flying Blue", "cpp": 1.3 },
+    { "id": "virginatlantic", "name": "Virgin Atlantic Flying Club", "cpp": 1.4 },
+    { "id": "lufthansa", "name": "Lufthansa Miles & More", "cpp": 1.2 },
+    { "id": "eurobonus", "name": "SAS EuroBonus", "cpp": 1.3 },
+    { "id": "finnair", "name": "Finnair Plus", "cpp": 1.3 },
+    { "id": "turkish", "name": "Turkish Miles&Smiles", "cpp": 1.3 },
+    { "id": "emirates", "name": "Emirates Skywards", "cpp": 1.2 },
+    { "id": "etihad", "name": "Etihad Guest", "cpp": 1.3 },
+    { "id": "qatar", "name": "Qatar Airways Privilege Club", "cpp": 1.3 },
+    { "id": "saudia", "name": "Saudia AlFursan", "cpp": 1.0 },
+    { "id": "ethiopian", "name": "Ethiopian ShebaMiles", "cpp": 1.1 },
+    { "id": "singapore", "name": "Singapore KrisFlyer", "cpp": 1.4 },
+    { "id": "qantas", "name": "Qantas Frequent Flyer", "cpp": 1.3 },
+    { "id": "velocity", "name": "Virgin Australia Velocity", "cpp": 1.1 },
+    { "id": "aeromexico", "name": "Aeroméxico Rewards", "cpp": 0.9 },
+    { "id": "connectmiles", "name": "Copa ConnectMiles", "cpp": 1.0 },
+    { "id": "azul", "name": "Azul Fidelidade", "cpp": 0.8 },
+    { "id": "smiles", "name": "GOL Smiles", "cpp": 0.6 },
+    { "id": "frontier", "name": "Frontier Miles", "cpp": 1.0 },
+    { "id": "spirit", "name": "Spirit Free Spirit", "cpp": 0.7 }
+  ],
+  "banks": [
+    { "id": "amex_mr", "name": "Amex Membership Rewards", "cpp": 1.0 },
+    { "id": "chase_ur", "name": "Chase Ultimate Rewards", "cpp": 1.0 },
+    { "id": "capital_one", "name": "Capital One Miles", "cpp": 1.0 },
+    { "id": "citi_ty", "name": "Citi ThankYou Points", "cpp": 1.0 },
+    { "id": "bilt", "name": "Bilt Rewards", "cpp": 1.0 }
+  ]
+}

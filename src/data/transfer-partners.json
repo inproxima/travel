@@ -1,0 +1,8 @@
+{
+  "_note": "Transfer partners and ratios change often. Verify on your card issuer's site before transferring. Each number is airline miles received per 1 bank point.",
+  "amex_mr": { "aeroplan": 1, "flyingblue": 1, "virginatlantic": 1, "delta": 1, "emirates": 0.8, "etihad": 1, "qatar": 1, "qantas": 1, "singapore": 1, "jetblue": 0.8, "aeromexico": 1.6 },
+  "chase_ur": { "aeroplan": 1, "united": 1, "flyingblue": 1, "virginatlantic": 1, "singapore": 1, "emirates": 1, "jetblue": 1 },
+  "capital_one": { "aeroplan": 1, "flyingblue": 1, "virginatlantic": 1, "emirates": 0.75, "etihad": 1, "qatar": 1, "singapore": 1, "turkish": 1, "qantas": 1, "finnair": 1, "jetblue": 0.6 },
+  "citi_ty": { "american": 1, "flyingblue": 1, "virginatlantic": 1, "emirates": 0.8, "etihad": 1, "qatar": 1, "singapore": 1, "turkish": 1, "jetblue": 1 },
+  "bilt": { "aeroplan": 1, "united": 1, "alaska": 1, "american": 1, "flyingblue": 1, "virginatlantic": 1, "emirates": 1, "etihad": 1, "turkish": 1 }
+}

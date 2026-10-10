@@ -8,11 +8,15 @@ node_modules/
 .next/
 out/
 dist/
+next-env.d.ts
+*.tsbuildinfo
 
-# Local data
-*.sqlite
-*.sqlite-journal
-.cache/
+# Local data (cache, settings, history)
+.data/
+
+# Test output
+playwright-report/
+test-results/
 
 # OS / editor
 .DS_Store
