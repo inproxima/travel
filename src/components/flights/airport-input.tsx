@@ -12,6 +12,13 @@ export type AirportValue = { codes: string; label: string };
 /** Type a city, airport or code; picks one airport or every airport in a city. */
 export function AirportInput({ id, value, onChange, placeholder }: { id: string; value: AirportValue | null; onChange: (v: AirportValue | null) => void; placeholder: string }) {
   const [text, setText] = React.useState(value?.label ?? "");
+  const [focused, setFocused] = React.useState(false);
+  // Follow changes made elsewhere (another tab, a swap, a deal) unless the user is typing here.
+  const [seenLabel, setSeenLabel] = React.useState(value?.label);
+  if (value?.label !== seenLabel) {
+    setSeenLabel(value?.label);
+    if (!focused) setText(value?.label ?? "");
+  }
   const [options, setOptions] = React.useState<AirportOption[]>([]);
   const [open, setOpen] = React.useState(false);
   const [active, setActive] = React.useState(0);
@@ -56,8 +63,14 @@ export function AirportInput({ id, value, onChange, placeholder }: { id: string;
         autoComplete="off"
         placeholder={placeholder}
         value={text}
-        onFocus={() => setOpen(true)}
-        onBlur={() => setTimeout(() => setOpen(false), 120)}
+        onFocus={() => {
+          setFocused(true);
+          setOpen(true);
+        }}
+        onBlur={() => {
+          setFocused(false);
+          setTimeout(() => setOpen(false), 120);
+        }}
         onChange={(e) => {
           setText(e.target.value);
           setOpen(true);

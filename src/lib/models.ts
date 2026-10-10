@@ -225,3 +225,34 @@ export type Deal = {
   link: string | null;
   coords: LatLng | null;
 };
+
+/** seats.aero cabin letters: Y economy, W premium economy, J business, F first. */
+export type AwardCabinKey = "Y" | "W" | "J" | "F";
+export const CABIN_TO_AWARD: Record<Cabin, AwardCabinKey> = { 1: "Y", 2: "W", 3: "J", 4: "F" };
+
+export type AwardCabin = { available: boolean; miles: number | null; seats: number | null; airlines: string | null; direct: boolean };
+
+export type AwardDay = {
+  id: string;
+  date: string;
+  source: string;
+  origin: string;
+  destination: string;
+  lastSeen: string | null;
+  cabins: Record<AwardCabinKey, AwardCabin>;
+};
+
+export type AwardTrip = {
+  id: string;
+  cabin: string | null;
+  miles: number | null;
+  taxes: number | null;
+  taxesCurrency: string | null;
+  stops: number | null;
+  durationMin: number | null;
+  departsAt: string | null;
+  arrivesAt: string | null;
+  seats: number | null;
+  carriers: string | null;
+  segments: { flightNumber: string | null; from: string | null; to: string | null; departsAt: string | null; arrivesAt: string | null; aircraft: string | null }[];
+};

@@ -3,6 +3,7 @@ import { ZodError } from "zod";
 import { env } from "@/lib/env";
 import { Budget, BudgetExceededError } from "@/lib/serpapi/budget";
 import { SerpApiError, type CallContext } from "@/lib/serpapi/client";
+import { SeatsAeroError } from "@/lib/seatsaero";
 
 /** Turns any thrown error into a JSON response the UI can show as-is. */
 export function errorResponse(err: unknown) {
@@ -12,6 +13,9 @@ export function errorResponse(err: unknown) {
   }
   if (err instanceof BudgetExceededError) {
     return NextResponse.json({ error: err.message }, { status: 402 });
+  }
+  if (err instanceof SeatsAeroError) {
+    return NextResponse.json({ error: err.message }, { status: err.status === 429 ? 429 : 502 });
   }
   if (err instanceof SerpApiError) {
     return NextResponse.json({ error: err.message }, { status: err.status && err.status >= 400 ? 502 : 500 });
