@@ -250,7 +250,7 @@ function SettingsEditor({ payload, initialPlaces }: { payload: SettingsPayload; 
   }
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1fr_22rem]">
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,1fr)_22rem]">
       <div className="flex flex-col gap-6">
         <Places places={places} onChange={setPlaces} />
         <Programs

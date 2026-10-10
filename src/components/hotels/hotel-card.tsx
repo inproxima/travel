@@ -47,7 +47,7 @@ export function HotelCard({
       <HotelImage src={hotel.images[0]} name={hotel.name} className="h-full min-h-24 w-full rounded-lg" />
       <div className="flex min-w-0 flex-col gap-1.5">
         <div className="flex flex-wrap items-center gap-1.5">
-          <h3 className="font-semibold leading-tight group-hover:text-primary">{hotel.name}</h3>
+          <span className="font-semibold leading-tight group-hover:text-primary">{hotel.name}</span>
           {hotel.hotelClass && <span className="text-xs text-amber-500">{"★".repeat(hotel.hotelClass)}</span>}
           {hotel.kind === "vacation rental" && <Badge variant="secondary">Rental</Badge>}
         </div>

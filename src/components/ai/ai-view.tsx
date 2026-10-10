@@ -63,7 +63,7 @@ export function AiView() {
   const request = "request" in state ? state.request : lastRequest;
 
   return (
-    <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_18rem]">
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-6 xl:grid-cols-[minmax(0,1fr)_18rem]">
       <div className="flex min-w-0 flex-col gap-5">
         {disabled && (
           <Notice tone="warning" title="Add your OpenAI key to use the AI Planner">

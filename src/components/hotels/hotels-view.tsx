@@ -69,7 +69,7 @@ export function HotelsView() {
       {result && (
         <>
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <p className="text-sm text-muted-foreground">
+            <p role="status" className="text-sm text-muted-foreground">
               <strong className="text-foreground">{hotels.length}</strong> stays · {result.nights} night{result.nights === 1 ? "" : "s"} · prices in {result.currency}
               {result.credits > 0 ? ` · used ${result.credits} credit` : " · from cache (free)"}
             </p>
@@ -84,7 +84,7 @@ export function HotelsView() {
               Try different dates or fewer filters.
             </EmptyState>
           ) : (
-            <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)]">
+            <div className="grid grid-cols-[minmax(0,1fr)] gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)]">
               <div className={cn("flex flex-col gap-3", mobileMap && "hidden lg:flex")}>
                 {hotels.map((h) => (
                   <HotelCard

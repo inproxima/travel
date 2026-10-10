@@ -112,7 +112,7 @@ export function DealsView({ onPick }: { onPick: (d: Deal, from: AirportValue) =>
       )}
       {action.data && deals.length === 0 && <Notice>No deals came back for these settings. Try a wider date window.</Notice>}
       {deals.length > 0 && from && (
-        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.8fr)]">
+        <div className="grid grid-cols-[minmax(0,1fr)] gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.8fr)]">
           <div className="grid content-start gap-3 sm:grid-cols-2">
             {deals.map((d) => {
               const id = `${d.to}-${d.destination}`;

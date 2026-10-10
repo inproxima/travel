@@ -51,7 +51,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-30 border-b bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-7xl items-center gap-4 px-4">
+      <div className="mx-auto flex h-14 max-w-7xl items-center gap-2 px-4 sm:gap-4">
         <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
           <span className="flex size-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <Compass className="size-4" />
@@ -67,20 +67,26 @@ export function Header() {
                 key={href}
                 href={href}
                 aria-current={active ? "page" : undefined}
+                title={label}
                 className={cn(
-                  "flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground",
+                  "flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground",
                   active && "bg-accent text-foreground",
                 )}
               >
                 <Icon className="size-4" />
-                <span className={cn(href === "/settings" && "sr-only md:not-sr-only")}>{label}</span>
+                <span className={cn("sr-only sm:not-sr-only", href === "/settings" && "sm:sr-only md:not-sr-only")}>{label}</span>
               </Link>
             );
           })}
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
-          {features?.mock && <Badge variant="warning">Sample data</Badge>}
+          {features?.mock && (
+            <Badge variant="warning" title="Sample data: no credits are used">
+              <span className="sm:hidden">Sample</span>
+              <span className="hidden sm:inline">Sample data</span>
+            </Badge>
+          )}
           {features && !features.serpapi && (
             <Link href="/settings">
               <Badge variant="destructive">Add SerpApi key</Badge>

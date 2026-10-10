@@ -45,7 +45,7 @@ export function ResultView({ result, onNew }: { result: PlannerResult; onNew: ()
 
       {result.mock && <Notice tone="warning">Sample-data mode: hotels and reviews are samples, and the ranking comes from simple rules instead of the AI model.</Notice>}
 
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
         <div className="flex flex-col gap-4">
           {result.ranked.map((h) => (
             <RankedCard key={h.id} h={h} currency={result.currency} placeLabel={primary?.label ?? result.places[0]?.label ?? null} active={hovered === h.id} onHover={(on) => setHovered(on ? h.id : null)} />

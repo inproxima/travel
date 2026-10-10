@@ -171,7 +171,7 @@ saved to history.
   - **Budget ledger:** credits are reserved *before* parallel calls go out.
   - Passes the abort signal through.
 - **Mock and record modes:**
-  - `SERPAPI_MOCK=1` replays `fixtures/serpapi/<engine>/…`; seats.aero and OpenAI have
+  - `MOCK_MODE=1` (set by `run mock`) replays `fixtures/serpapi/<engine>/…`; seats.aero and OpenAI have
     matching mocks.
   - `RECORD_FIXTURES=1` saves live responses with keys and My-places addresses scrubbed.
 - **`src/lib/serpapi/engines/<engine>.ts`:** one per engine, each with:

@@ -157,7 +157,8 @@ async function step(name, fn) {
     console.log(`${c.green("OK")}  ${c.dim(detail ?? "")}`);
     return true;
   } catch (e) {
-    console.log(`${c.red("FAILED")}  ${e.message}`);
+    const offline = e.cause?.code === "ENOTFOUND" || e.cause?.code === "ECONNREFUSED" || e.message === "fetch failed";
+    console.log(`${c.red("FAILED")}  ${offline ? "Couldn't reach the service. Check your internet connection." : e.message}`);
     return false;
   }
 }
@@ -248,6 +249,7 @@ async function check() {
 
   const failed = results.filter((r) => !r).length;
   console.log();
+  if (results.length === 0) fail(`No keys to check yet. Add them to ${path.join(root, ".env")} and run ./run.sh check again.`);
   if (failed) fail(`${failed} check(s) failed. Fix the key or setting shown above, then run ./run.sh check again.`);
   console.log(c.green("All configured services work."));
   if (full) console.log(c.dim("Saved responses are in fixtures/recorded/check/ (keys removed)."));

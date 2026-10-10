@@ -33,7 +33,7 @@ export function Progress({ steps, credits, plan, onCancel }: { steps: StepState[
         <ol className="flex flex-col gap-2.5" aria-live="polite">
           {steps.map((s) => (
             <li key={s.key} className="flex gap-3 text-sm">
-              {s.status === "running" ? <Spinner className="mt-0.5 text-ai" /> : <CheckCircle2 className="mt-0.5 size-4 text-success" />}
+              {s.status === "running" ? <Spinner className="mt-0.5 shrink-0 text-ai" /> : <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-success" />}
               <div className="min-w-0">
                 <p className={s.status === "running" ? "font-medium" : ""}>{s.label}</p>
                 {s.detail && <p className="truncate text-xs text-muted-foreground">{s.detail}</p>}
@@ -42,7 +42,7 @@ export function Progress({ steps, credits, plan, onCancel }: { steps: StepState[
           ))}
           {pending.map((s) => (
             <li key={s.key} className="flex gap-3 text-sm text-muted-foreground">
-              <Circle className="mt-0.5 size-4" />
+              <Circle className="mt-0.5 size-4 shrink-0" />
               {s.label}
             </li>
           ))}

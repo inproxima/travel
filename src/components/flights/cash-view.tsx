@@ -64,10 +64,10 @@ export function CashResults({
 
   return (
     <div className="flex flex-col gap-5">
-      <p className="text-sm text-muted-foreground">{data.credits > 0 ? `Used ${data.credits} credit${data.credits === 1 ? "" : "s"}.` : "From cache (free)."} Prices are per person{roundTrip ? ", round trip" : ""}, in {data.currency}.</p>
+      <p role="status" className="text-sm text-muted-foreground">{data.credits > 0 ? `Used ${data.credits} credit${data.credits === 1 ? "" : "s"}.` : "From cache (free)."} Prices are per person{roundTrip ? ", round trip" : ""}, in {data.currency}.</p>
       <CabinCards cabins={cabins} results={data.cabins} currency={data.currency} selected={active} onSelect={setCabin} loading={loading} extra={priceExtra} />
 
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
         <section className="flex flex-col gap-3" aria-label={`${CABIN_NAMES[active]} flights`}>
           <div className="flex flex-wrap items-center gap-2">
             <h2 className="mr-auto font-semibold">
