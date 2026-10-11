@@ -24,4 +24,13 @@ describe("env", () => {
     useTempEnv({ OPENAI_REASONING_EFFORT: "turbo" });
     expect(() => env()).toThrow(/OPENAI_REASONING_EFFORT/);
   });
+
+  it("exposes the Google Maps browser key only when set, with Google's demo map ID by default", () => {
+    useTempEnv();
+    expect(features().googleMaps).toBeNull();
+    useTempEnv({ GOOGLE_MAPS_API_KEY: "AIza-test" });
+    expect(features().googleMaps).toEqual({ apiKey: "AIza-test", mapId: "DEMO_MAP_ID" });
+    useTempEnv({ GOOGLE_MAPS_API_KEY: "AIza-test", GOOGLE_MAPS_MAP_ID: "abc123" });
+    expect(features().googleMaps?.mapId).toBe("abc123");
+  });
 });

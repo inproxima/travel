@@ -5,16 +5,7 @@ import L from "leaflet";
 import { MapContainer, Marker, TileLayer, Tooltip, useMap } from "react-leaflet";
 import { useTheme } from "next-themes";
 import "leaflet/dist/leaflet.css";
-import type { LatLng } from "@/lib/models";
-
-export type MapPin = {
-  id: string;
-  coords: LatLng;
-  label: string;
-  /** Short text on the pin, e.g. a price or a rank. */
-  badge?: string;
-  kind: "hotel" | "place" | "deal";
-};
+import { DEFAULT_CENTER, type MapPin, type PlacesMapProps } from "./types";
 
 function pinIcon(pin: MapPin, active: boolean) {
   const base =
@@ -44,20 +35,11 @@ function FitBounds({ pins }: { pins: MapPin[] }) {
   return null;
 }
 
-export default function PlacesMap({
-  pins,
-  activeId,
-  onSelect,
-  className,
-}: {
-  pins: MapPin[];
-  activeId?: string | null;
-  onSelect?: (id: string) => void;
-  className?: string;
-}) {
+/** OpenStreetMap tiles via CARTO. Used when no Google Maps key is set, or when Google fails to load. */
+export default function LeafletMap({ pins, activeId, onSelect, className }: PlacesMapProps) {
   const { resolvedTheme } = useTheme();
   const style = resolvedTheme === "dark" ? "dark_all" : "light_all";
-  const center = pins[0]?.coords ?? { lat: 38.7223, lng: -9.1393 };
+  const center = pins[0]?.coords ?? DEFAULT_CENTER;
 
   return (
     <MapContainer center={[center.lat, center.lng]} zoom={13} scrollWheelZoom className={className} style={{ height: "100%", width: "100%" }}>

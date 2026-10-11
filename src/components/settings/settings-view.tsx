@@ -60,6 +60,15 @@ function ApiStatus() {
               name="seats.aero"
               detail={f.seatsAero ? "Real award seats are on." : "Optional. Without it, points shows estimates from cash fares."}
             />
+            <StatusRow
+              ok={Boolean(f.googleMaps)}
+              name="Google Maps"
+              detail={
+                f.googleMaps
+                  ? `Google map view is on${f.googleMaps.mapId === "DEMO_MAP_ID" ? " (using Google's demo map ID)" : ""}.`
+                  : "Optional. Add GOOGLE_MAPS_API_KEY for Google's map; OpenStreetMap is used meanwhile."
+              }
+            />
           </>
         )}
       </CardContent>

@@ -6,7 +6,7 @@ A local web app with three modes:
 - **Hotels**: hotels for your dates, with prices from every booking site, Google and Tripadvisor reviews, travel times to your own places, and forum posts.
 - **AI Planner**: describe your stay in plain words ("30 nights in Lisbon from March 3, quiet, near my office, under $250"). It searches, reads the reviews and returns a ranked shortlist with reasons and quotes you can check.
 
-Everything runs on your computer. Your API keys stay in a local `.env` file and are never sent to the browser.
+Everything runs on your computer. Your API keys stay in a local `.env` file and are never sent to the browser. The one exception is the optional Google Maps key, which Google designs to be used in the browser (see [Google Maps](#google-maps-optional)).
 
 ## Quick start
 
@@ -38,6 +38,8 @@ Want to look around before adding keys? Run `./run.sh mock`. Every result is sam
 | `OPENAI_MODEL` | Model for the AI Planner. Default `gpt-6.1-sol`. |
 | `OPENAI_REASONING_EFFORT` | `low`, `medium` (default), `high`, `xhigh` or `max`. Which values work depends on the model. |
 | `SEATS_AERO_API_KEY` | Optional. Real award seats for points flights. Needs a seats.aero Pro subscription; personal use only. Without it, points show estimates. |
+| `GOOGLE_MAPS_API_KEY` | Optional. Shows Google's map instead of OpenStreetMap. See [Google Maps](#google-maps-optional). |
+| `GOOGLE_MAPS_MAP_ID` | Optional. Your own map ID; empty uses Google's demo ID. |
 | `DEFAULT_CURRENCY`, `DEFAULT_COUNTRY`, `DEFAULT_LANGUAGE` | Defaults, also editable in Settings. |
 | `MAX_CALLS_PER_SEARCH` | Most SerpApi credits one Flights or Hotels action may use (default 20). |
 | `AI_MAX_SERPAPI_CALLS` | Most SerpApi credits one AI Planner question may use (default 40). |
@@ -85,9 +87,25 @@ OpenAI usage for the AI Planner is billed by OpenAI: four model calls per questi
 - **Without one**, it shows estimates: the cash fare divided by your value per point. Think of that as paying with points through a card's travel portal. It is not award availability.
 - **Transfer partners** are in `src/data/transfer-partners.json` and loyalty programs in `src/data/programs.json`. Partners and ratios change; check your card issuer's site before transferring.
 
+## Google Maps (optional)
+
+Without a Google key the app draws its maps with OpenStreetMap, at no cost. To get Google's map instead:
+
+1. Go to the [Google Cloud console](https://console.cloud.google.com/) and create a project, e.g. "Waypoint".
+2. **Link a billing account.** Google requires one even for free use. Maps loaded in the app count as "Dynamic Maps". The free monthly allowance is about 10,000 map loads; after that Google charges per 1,000. Check [Google's pricing page](https://developers.google.com/maps/billing/overview/) for current numbers. Under **Billing → Budgets & alerts**, add an alert so there are no surprises.
+3. **APIs & Services → Library**, search for **Maps JavaScript API**, and press **Enable**.
+4. **APIs & Services → Credentials → Create credentials → API key.** Copy the key.
+5. **Restrict the key** by opening it in Credentials:
+   - Application restrictions: **Websites**, with `http://localhost:3000/*` and `http://127.0.0.1:3000/*`. Use your `PORT` if you changed it.
+   - API restrictions: **Restrict key** and choose **Maps JavaScript API**.
+6. *(Optional)* **Google Maps Platform → Map management → Create map ID**, with type JavaScript and Vector. Put it in `GOOGLE_MAPS_MAP_ID`. Without one the app uses Google's `DEMO_MAP_ID`, which is meant for testing.
+7. Add `GOOGLE_MAPS_API_KEY=your_key` to `.env` and restart `./run.sh`. Settings → Connections shows "Google map view is on".
+
+This key is sent to your browser, because Google Maps runs there; the website restriction in step 5 is what stops anyone else from using it. If the key is rejected, billing is off, or you're offline, the app shows OpenStreetMap with a short note instead of a broken map. Place details, reviews and travel times still come from SerpApi either way.
+
 ## Your data
 
-Searches, settings, saved places and AI Planner history live in `.data/travel.db` on your computer. The only outside calls go to SerpApi, OpenAI (AI Planner) and seats.aero (if set up). Map tiles load from OpenStreetMap/CARTO.
+Searches, settings, saved places and AI Planner history live in `.data/travel.db` on your computer. The only outside calls go to SerpApi, OpenAI (AI Planner) and seats.aero (if set up). Maps load from Google Maps if you added a key, otherwise from OpenStreetMap/CARTO.
 
 ## Troubleshooting
 
@@ -97,10 +115,11 @@ Searches, settings, saved places and AI Planner history live in `.data/travel.db
 - **SerpApi errors** (invalid key, out of searches): run `./run.sh check`. The credits badge in the header shows how many searches are left.
 - **OpenAI 404 or "model not found":** change `OPENAI_MODEL`. **400 about reasoning:** try `OPENAI_REASONING_EFFORT=medium`.
 - **seats.aero 401/403:** API access needs a Pro subscription and isn't enabled for every account.
+- **"Google Maps couldn't load":** check that the Maps JavaScript API is enabled, billing is linked, and the key allows `http://localhost:3000/*`. Restriction changes can take a few minutes to apply. The browser console shows Google's exact error, e.g. `RefererNotAllowedMapError`.
 
 ## For developers
 
-- Next.js 16 (App Router) + TypeScript, Tailwind CSS 4, Radix primitives, Leaflet maps and Recharts. Storage uses Node's built-in `node:sqlite`.
+- Next.js 16 (App Router) + TypeScript, Tailwind CSS 4, Radix primitives, Recharts, and maps from Google (`@vis.gl/react-google-maps`) or Leaflet/OpenStreetMap. Storage uses Node's built-in `node:sqlite`.
 - `src/lib/serpapi/`: one client with a cache, credit budget and mock/record modes, plus one module per engine. Each module turns the raw response into the app's models (`src/lib/models.ts`) with lenient zod parsing.
 - `src/lib/ai/`: the AI Planner. The model only parses the request, shortlists and ranks. Code gathers the data within the credit cap, computes prices, distances and the match score, and drops any quote that isn't in the evidence.
 - `src/lib/seatsaero.ts` and `src/lib/points/`: award search, transfer routes and value math.

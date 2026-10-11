@@ -14,6 +14,10 @@ const schema = z.object({
   OPENAI_MODEL: str("gpt-6.1-sol"),
   OPENAI_REASONING_EFFORT: z.preprocess(blankToUndefined, z.enum(REASONING_EFFORTS).default("medium")),
   SEATS_AERO_API_KEY: str(""),
+  /** Browser key for the Maps JavaScript API. Optional: without it, maps use OpenStreetMap. */
+  GOOGLE_MAPS_API_KEY: str(""),
+  /** Map ID from Google Cloud (Map management). DEMO_MAP_ID is Google's testing ID. */
+  GOOGLE_MAPS_MAP_ID: str("DEMO_MAP_ID"),
   DEFAULT_COUNTRY: str("us"),
   DEFAULT_LANGUAGE: str("en"),
   DEFAULT_CURRENCY: str("USD"),
@@ -55,9 +59,17 @@ export type Features = {
   seatsAero: boolean;
   model: string;
   reasoningEffort: string;
+  /**
+   * Google Maps loads in the browser, so its key has to reach the browser. That key is
+   * meant to be public and is protected by its HTTP-referrer restriction in Google Cloud.
+   */
+  googleMaps: { apiKey: string; mapId: string } | null;
 };
 
-/** What the app can do with the keys that are configured. Safe to send to the browser. */
+/**
+ * What the app can do with the keys that are configured. Safe to send to the browser:
+ * server keys appear only as on/off flags; the Google Maps browser key is the one exception.
+ */
 export function features(): Features {
   const e = env();
   return {
@@ -67,5 +79,6 @@ export function features(): Features {
     seatsAero: e.MOCK_MODE ? !e.MOCK_NO_SEATSAERO : e.SEATS_AERO_API_KEY !== "",
     model: e.OPENAI_MODEL,
     reasoningEffort: e.OPENAI_REASONING_EFFORT,
+    googleMaps: e.GOOGLE_MAPS_API_KEY ? { apiKey: e.GOOGLE_MAPS_API_KEY, mapId: e.GOOGLE_MAPS_MAP_ID } : null,
   };
 }

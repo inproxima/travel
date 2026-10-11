@@ -109,6 +109,7 @@ function warnMissingKeys() {
   if (!conf.SERPAPI_API_KEY) missing.push(`${c.yellow("SERPAPI_API_KEY")} is empty: searches are off.`);
   if (!conf.OPENAI_API_KEY) missing.push(`${c.yellow("OPENAI_API_KEY")} is empty: the AI Planner is off.`);
   if (!conf.SEATS_AERO_API_KEY) missing.push(`${c.dim("SEATS_AERO_API_KEY is empty: points show estimates (that's fine).")}`);
+  if (!conf.GOOGLE_MAPS_API_KEY) missing.push(`${c.dim("GOOGLE_MAPS_API_KEY is empty: maps use OpenStreetMap (that's fine).")}`);
   for (const m of missing) console.log(`  • ${m}`);
   if (missing.length) console.log(c.dim(`  Edit ${path.join(root, ".env")} and restart to change this.\n`));
 }
